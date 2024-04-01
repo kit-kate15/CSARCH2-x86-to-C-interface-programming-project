@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\OneDrive - De La Salle University - Manila\\Documents\\Programming Files\\LBYARCH Files\\X86-to-C\\x86-to-C-interface-programming-project\\x86-to-C-programming-project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55AC6886-2CEB-484E-B33E-CA11F5808084}|x86-to-C-programming-project.vcxproj|C:\\Users\\hp\\OneDrive - De La Salle University - Manila\\Documents\\Programming Files\\LBYARCH Files\\X86-to-C\\x86-to-C-interface-programming-project\\x86-to-C-programming-project\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55AC6886-2CEB-484E-B33E-CA11F5808084}|x86-to-C-programming-project.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive - De La Salle University - Manila\\Documents\\Programming Files\\LBYARCH Files\\X86-to-C\\x86-to-C-interface-programming-project\\x86-to-C-programming-project\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\hp\\OneDrive - De La Salle University - Manila\\Documents\\Programming Files\\LBYARCH Files\\X86-to-C\\x86-to-C-interface-programming-project\\x86-to-C-programming-project\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-01T08:34:57.67Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
