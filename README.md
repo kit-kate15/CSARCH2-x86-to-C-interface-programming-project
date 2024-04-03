@@ -35,10 +35,10 @@
 ## III. Screenshot of the Program Output with the Correctness Check (Release Mode)
 
 ### 2<sup>20</sup>
-
+![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/106814132/36c09fbc-51c3-44d9-9a84-f0321dbde57b)
 
 ### 2<sup>24</sup>
-
+![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/106814132/56725985-05f8-4f68-817c-e2b61f698525)
 
 ### 2<sup>29</sup>
 
