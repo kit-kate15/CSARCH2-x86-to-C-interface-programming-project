@@ -4,7 +4,7 @@
 - Rojo, Kate Lynn
 - Romblon, Kathleen Mae
 
-## I. Comparative Execution Time
+## I. Comparative Execution Time (in seconds)
 
 ### Debug Mode
 | Vector Size     |     C     | Assembly | 
