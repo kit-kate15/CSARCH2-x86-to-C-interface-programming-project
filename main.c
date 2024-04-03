@@ -51,20 +51,20 @@ int main(void) {
     double* vB = (double*)malloc(size * sizeof(double));
 
     //printf("Enter the elements of the first vector: ");
-    printf("Elements of the first vector: ");
+    //printf("Elements of the first vector: ");
     for (int i = 0; i < size; i++) {
         // scanf_s("%lf", &vA[i]);
         vA[i] = randFrom(1.0, 10.0);
-        printf("%.2lf ", vA[i]);
+        //printf("%.2lf ", vA[i]);
     }
     printf("\n");
 
     //printf("Enter the elements of the second vector: ");
-    printf("Elements of the second vector: ");
+    //printf("Elements of the second vector: ");
     for (int i = 0; i < size; i++) {
         //scanf_s("%lf", &vB[i]);
         vB[i] = randFrom(1.0, 10.0);
-        printf("%.2lf ", vB[i]);
+        //printf("%.2lf ", vB[i]);
     }
     printf("\n");
 
@@ -73,12 +73,13 @@ int main(void) {
     for (int i = 0; i < 30; i++) {
         start_c = clock();
         result = dot_product(vA, vB, size);
-        end_c = clock() - start_c;
-        cpu_time_c = ((double)end_c) / CLOCKS_PER_SEC;
+        //end_c = clock() - start_c;
+        end_c = clock();
+        cpu_time_c = ((double)end_c - start_c) / CLOCKS_PER_SEC;
         avg_c += cpu_time_c;
 
     }
-    //avg_c /= 30;    
+    avg_c /= 30;    
 
     printf("Dot Product from C: %.2lf\n", result);
     printf("Average time taken (after 30 runs) to run C kernel: %lf\n", avg_c);
@@ -86,15 +87,16 @@ int main(void) {
     // asm kernel
     avg_asm = 0;
     //for (int j = 0; j < 30; j++) {
-        start_asm = clock();
-        for (int i = 0; i < size; i++) {
-            dot_prod = dotprod(vA[i], vB[i], dot_prod);
-        }
-        end_asm = clock() - start_asm;
-        cpu_time_asm = ((double)end_asm) / CLOCKS_PER_SEC;
-        avg_asm += cpu_time_asm;
+    start_asm = clock();
+    for (int i = 0; i < size; i++) {
+        dot_prod = dotprod(vA[i], vB[i], dot_prod);
+    }
+    //end_asm = clock() - start_asm;
+    end_asm = clock();
+    cpu_time_asm = ((double)end_asm - start_asm) / CLOCKS_PER_SEC;
+    avg_asm += cpu_time_asm;
     //}
-   // avg_asm /= 30;
+    avg_asm /= 30;
 
     printf("Dot Product from asm: %.2lf\n", dot_prod);
     printf("Average time taken (after 30 runs) to run asm kernel: %lf\n", avg_asm);
