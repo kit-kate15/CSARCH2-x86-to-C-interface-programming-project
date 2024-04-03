@@ -6,7 +6,7 @@
 
 ## I. Comparative Execution Time (in seconds)
 
-### Debug Mode
+### Debug Mode (Average Time)
 | Vector Size     |         C         |     Assembly     | 
 | --------------- | ------------------| ---------------  | 
 | 2<sup>20</sup>  |  0.002700 seconds | 0.001767 seconds |
@@ -14,7 +14,7 @@
 | 2<sup>29</sup>  | 41.963500 seconds | 35.400100 seconds|
 
 
-### Release Mode
+### Release Mode (Average Time)
 | Vector Size     |         C         |     Assembly    | 
 | --------------- | ------------------| --------------- | 
 | 2<sup>20</sup>  |  0.001133 seconds | 0.237691 seconds|
