@@ -17,7 +17,7 @@
     r = ( 2 * 3) + (5 * 2) + (4 * 1) = 6 + 10 + 4 = 20
 */
 
-extern double dotprod(double vA, double vB, double sum);
+extern double dotprod(double *vA, double *vB, int size);
 
 double dot_product(double vA[], double vB[], int size) {
     double result = 0;
@@ -73,29 +73,27 @@ int main(void) {
     for (int i = 0; i < 30; i++) {
         start_c = clock();
         result = dot_product(vA, vB, size);
-        //end_c = clock() - start_c;
         end_c = clock();
         cpu_time_c = ((double)end_c - start_c) / CLOCKS_PER_SEC;
         avg_c += cpu_time_c;
 
     }
-    avg_c /= 30;    
+    avg_c /= 30;
 
     printf("Dot Product from C: %.2lf\n", result);
     printf("Average time taken (after 30 runs) to run C kernel: %lf\n", avg_c);
 
     // asm kernel
     avg_asm = 0;
-    //for (int j = 0; j < 30; j++) {
-    start_asm = clock();
-    for (int i = 0; i < size; i++) {
-        dot_prod = dotprod(vA[i], vB[i], dot_prod);
+    int loop = 0;
+    while (loop < 30) {
+        start_asm = clock();
+        dot_prod = dotprod(vA, vB, size);
+        end_asm = clock();
+        cpu_time_asm = ((double)end_asm - start_asm) / CLOCKS_PER_SEC;
+        avg_asm += cpu_time_asm;
+        loop++;
     }
-    //end_asm = clock() - start_asm;
-    end_asm = clock();
-    cpu_time_asm = ((double)end_asm - start_asm) / CLOCKS_PER_SEC;
-    avg_asm += cpu_time_asm;
-    //}
     avg_asm /= 30;
 
     printf("Dot Product from asm: %.2lf\n", dot_prod);
