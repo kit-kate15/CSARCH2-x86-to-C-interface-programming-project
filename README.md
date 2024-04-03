@@ -41,5 +41,4 @@
 ![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/105538604/c68c140f-dfc2-4036-9c53-d30bfc06e6c4)
 
 ### 2<sup>29</sup>
-![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/106814132/f33476aa-99fe-47c0-882d-435f9eab2767)
-
+![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/105538604/c68c140f-dfc2-4036-9c53-d30bfc06e6c4)
