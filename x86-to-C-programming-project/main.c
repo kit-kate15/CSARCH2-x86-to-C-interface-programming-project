@@ -27,6 +27,13 @@ double dot_product(double vA[], double vB[], int size) {
     return result;
 }
 
+void isEqual(double c_dot, double asm_dot) {
+    if (c_dot == asm_dot)
+        printf("C and x86-64 output for dot product is EQUAL.\n");
+    else
+        printf("C and x86-64 output for dot product is NOT EQUAL.\n");
+}
+
 double randFrom(double min, double max) {
     double range = (max - min);
     double div = RAND_MAX / range;
@@ -98,6 +105,7 @@ int main(void) {
 
     printf("Dot Product from asm: %.2lf\n", dot_prod);
     printf("Average time taken (after 30 runs) to run asm kernel: %lf\n", avg_asm);
+    isEqual(result, dot_prod);
 
     //Deallocate memory
     free(vA);
