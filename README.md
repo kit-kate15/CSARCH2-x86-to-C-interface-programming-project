@@ -15,11 +15,11 @@
 
 
 ### Release Mode (Average Time)
-| Vector Size     |         C         |     Assembly    | 
-| --------------- | ------------------| --------------- | 
-| 2<sup>20</sup>  |  0.001133 seconds | 0.237691 seconds|
-| 2<sup>24</sup>  |  0.019567 seconds | 0.71520 seconds |
-| 2<sup>29</sup>  | 34.950767 seconds | 1.155251 seconds|
+| Vector Size     |         C         |     Assembly     | 
+| --------------- | ------------------| ---------------  | 
+| 2<sup>20</sup>  |  0.001133 seconds | 0.237691 seconds |
+| 2<sup>24</sup>  |  0.019567 seconds | 0.071520 seconds |
+| 2<sup>29</sup>  | 34.950767 seconds | 1.155251 seconds |
 
 ## II. Screenshot of the Program Output with the Correctness Check (Debug Mode)
 
