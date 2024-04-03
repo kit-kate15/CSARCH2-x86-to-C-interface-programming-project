@@ -18,7 +18,7 @@
 | Vector Size     |         C         |     Assembly     | 
 | --------------- | ------------------| ---------------  | 
 | 2<sup>20</sup>  |  0.001133 seconds | 0.237691 seconds |
-| 2<sup>24</sup>  |  0.019567 seconds | 0.071520 seconds |
+| 2<sup>24</sup>  |  0.022600 seconds | 0.240442 seconds |
 | 2<sup>29</sup>  | 34.950767 seconds | 1.155251 seconds |
 
 <p align="justify">Based on the release mode, it is evident that the average time for both C and Assembly increases as the vector size differs. However, compared to the debug mode, C outperforms Assembly, particularly at 2<sup>20</sup> and 2<sup>24</sup> vector sizes due to possible compiler optimizations that speed up the C code. This implies that Assembly may lack compiler optimization compared to C. Nevertheless, for a vector size of 2<sup>29</sup>, Assembly performs better than C, which is the same for the debug mode and has a significant difference. Based on the three different vector sizes tested, C performs better for smaller vector sizes, while Assembly is more efficient for larger vector sizes in release mode. </p>
@@ -43,7 +43,7 @@
 ![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/106814132/36c09fbc-51c3-44d9-9a84-f0321dbde57b)
 
 ### 2<sup>24</sup>
-![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/106814132/56725985-05f8-4f68-817c-e2b61f698525)
+![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/106814132/43df9270-53d8-4951-8e95-c722ff6e0c99)
 
 ### 2<sup>29</sup>
 ![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/105538604/c68c140f-dfc2-4036-9c53-d30bfc06e6c4)
