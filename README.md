@@ -7,18 +7,18 @@
 ## I. Comparative Execution Time (in seconds)
 
 ### Debug Mode
-| Vector Size     |     C     | Assembly | 
-| --------------- | --------- | -------- | 
-| 2<sup>20</sup>  |  0.005467 | 0.000167 |
-| 2<sup>24</sup>  |  0.064633 | 0.002033 |
-| 2<sup>29</sup>  | 56.676900 | 1.660900 |
+| Vector Size     |         C         |     Assembly    | 
+| --------------- | ------------------| --------------- | 
+| 2<sup>20</sup>  |  0.005467 seconds | 0.000167 seconds|
+| 2<sup>24</sup>  |  0.064633 seconds | 0.002033 seconds|
+| 2<sup>29</sup>  | 56.676900 seconds | 1.660900 seconds|
 
 ### Release Mode
-| Vector Size     |     C     | Assembly | 
-| --------------- | --------- | -------- | 
-| 2<sup>20</sup>  |  0.001033 | 0.000067 |
-| 2<sup>24</sup>  |  0.022133 | 0.001400 |
-| 2<sup>29</sup>  | 89.450300 | 2.387133 |
+| Vector Size     |         C         |     Assembly    | 
+| --------------- | ------------------| --------------- | 
+| 2<sup>20</sup>  |  0.001033 seconds | 0.000067 seconds|
+| 2<sup>24</sup>  |  0.022133 seconds | 0.001400 seconds|
+| 2<sup>29</sup>  | 89.450300 seconds | 2.387133 seconds|
 
 ## II. Screenshot of the Program Output with the Correctness Check (C)
 
