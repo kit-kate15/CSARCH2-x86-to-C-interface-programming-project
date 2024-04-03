@@ -24,10 +24,10 @@
 ## II. Screenshot of the Program Output with the Correctness Check (Debug Mode)
 
 ### 2<sup>20</sup>
-
+![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/105538604/3b3b1b27-ec23-4fb8-a191-7abc49395aee)
 
 ### 2<sup>24</sup>
-
+![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/105538604/074628e6-c479-4af0-9b5a-e97615a9dc68)
 
 ### 2<sup>29</sup>
 
