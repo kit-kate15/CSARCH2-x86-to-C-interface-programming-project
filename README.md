@@ -15,7 +15,7 @@
 | 2<sup>24</sup>  |  0.044033 seconds | 0.024233 seconds |
 | 2<sup>29</sup>  | 41.963500 seconds | 35.400100 seconds|
 
-<p align="justify"> In debug mode, all x86-64 outputs are faster than their C counterparts. For the vector with a size of 2<sup>20</sup>, x86-64 is 34.56% faster than C. For the vector with the size of 2<sup>24</sup>, x86-64 is still faster by 44.97%. Finally, x86-64 is still faster than C by 15.64% for the vector size of 2<sup>29</sup>. Both times are still fast and are not far off from each other, especially when testing for larger vectors, and this may be attributed to Visual Studio's debug mode, wherein [no optimization is done when building the program.](https://learn.microsoft.com/en-us/visualstudio/debugger/how-to-set-debug-and-release-configurations?view=vs-2022) </p>
+<p align="justify"> In debug mode, all x86-64 outputs are faster than their C counterparts. For the vector with a size of 2<sup>20</sup>, x86-64 is 34.56% faster than C. For the vector with the size of 2<sup>24</sup>, x86-64 is still faster by 44.97%. Finally, x86-64 is still faster than C by 15.64% for the vector size of 2<sup>29</sup>. Both times are still fast and are not far off from each other, especially when testing for larger vectors, and this may be attributed to Visual Studio's debug mode, wherein [no optimization is done when building the program](https://learn.microsoft.com/en-us/visualstudio/debugger/how-to-set-debug-and-release-configurations?view=vs-2022). </p>
 
 ### Release Mode (Average Time)
 | Vector Size     |         C         |     Assembly     | 
