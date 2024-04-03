@@ -25,6 +25,8 @@
 
 ## II. Screenshot of the Program Output with the Correctness Check (Debug Mode)
 
+<p align="justify">For the Debug Mode, the C version serves as a correctness checker for both the C and Assembly outputs.</p>
+
 ### 2<sup>20</sup>
 ![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/105538604/3b3b1b27-ec23-4fb8-a191-7abc49395aee)
 
@@ -35,6 +37,7 @@
 ![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/105538604/9eccf55e-3546-4e5a-8dff-08e611ff425c)
 
 ## III. Screenshot of the Program Output with the Correctness Check (Release Mode)
+<p align="justify">For the Release Mode, the C version serves as a correctness checker for both the C and Assembly outputs.</p>
 
 ### 2<sup>20</sup>
 ![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/106814132/36c09fbc-51c3-44d9-9a84-f0321dbde57b)
