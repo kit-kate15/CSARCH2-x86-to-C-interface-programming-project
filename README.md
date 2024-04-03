@@ -21,7 +21,7 @@
 | 2<sup>24</sup>  |  0.019567 seconds | 0.071520 seconds |
 | 2<sup>29</sup>  | 34.950767 seconds | 1.155251 seconds |
 
-Based on the release mode, it is evident that the average time for both C and Assembly increases as the vector size differs. However, compared to the debug mode, C outperforms Assembly, particularly at 2<sup>20</sup> and 2<sup>40</sup> vector sizes due to possible compiler optimizations that speed up the C code. This implies that Assembly may lack compiler optimization compared to C. Nevertheless, for a vector size of 2<sup>29</sup>, Assembly performs better than C, which is the same for the debug mode and has a significant difference. Based on the three different vector sizes tested, C performs better for smaller vector sizes, while Assembly is more efficient for larger vector sizes in release mode.
+<p align="justify">Based on the release mode, it is evident that the average time for both C and Assembly increases as the vector size differs. However, compared to the debug mode, C outperforms Assembly, particularly at 2<sup>20</sup> and 2<sup>40</sup> vector sizes due to possible compiler optimizations that speed up the C code. This implies that Assembly may lack compiler optimization compared to C. Nevertheless, for a vector size of 2<sup>29</sup>, Assembly performs better than C, which is the same for the debug mode and has a significant difference. Based on the three different vector sizes tested, C performs better for smaller vector sizes, while Assembly is more efficient for larger vector sizes in release mode. </p>
 
 ## II. Screenshot of the Program Output with the Correctness Check (Debug Mode)
 
