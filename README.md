@@ -4,6 +4,8 @@
 - Rojo, Kate Lynn
 - Romblon, Kathleen Mae
 
+<p align="justify"> The program computes for the dot product of two vectors. It only asks the user for the input of the size of the vectors, which will be applied to both vectors A and B, and the values in each of the vectors are randomly generated within the range of 1.0 to 10.0. The vectors do not have the same value. Once the vectors have been generated given the size, the dot product computation will be done for both C and x86-64 assembly languages. The dot product computation is tested 30 times for both languages, and the average time to run will be printed after the program finishes. </p>
+
 ## I. Comparative Execution Time (in seconds)
 
 ### Debug Mode (Average Time)
@@ -13,6 +15,7 @@
 | 2<sup>24</sup>  |  0.044033 seconds | 0.024233 seconds |
 | 2<sup>29</sup>  | 41.963500 seconds | 35.400100 seconds|
 
+<p align="justify"> In debug mode, all x86-64 outputs are faster than their C counterparts. For the vector with a size of 2<sup>20</sup>, x86-64 is 34.56% faster than C. For the vector with the size of 2<sup>24</sup>, x86-64 is still faster by 44.97%. Finally, x86-64 is still faster than C by 15.64% for the vector size of 2<sup>29</sup>. </p>
 
 ### Release Mode (Average Time)
 | Vector Size     |         C         |     Assembly     | 
