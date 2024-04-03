@@ -9,9 +9,9 @@
 ### Debug Mode
 | Vector Size     |         C         |     Assembly    | 
 | --------------- | ------------------| --------------- | 
-| 2<sup>20</sup>  |  0.005467 seconds | 0.000167 seconds|
-| 2<sup>24</sup>  |  0.064633 seconds | 0.002033 seconds|
-| 2<sup>29</sup>  | 56.676900 seconds | 1.660900 seconds|
+| 2<sup>20</sup>  |  0.002700 seconds | 0.001767 seconds|
+| 2<sup>24</sup>  |  0.044033 seconds | 0.024233 seconds|
+| 2<sup>29</sup>  | 41.963500 seconds | 35.400100 seconds|
 
 
 ### Release Mode
@@ -30,7 +30,7 @@
 ![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/105538604/074628e6-c479-4af0-9b5a-e97615a9dc68)
 
 ### 2<sup>29</sup>
-
+![image](https://github.com/kit-kate15/LBYARCH-x86-to-C-interface-programming-project/assets/105538604/9eccf55e-3546-4e5a-8dff-08e611ff425c)
 
 ## III. Screenshot of the Program Output with the Correctness Check (Release Mode)
 
