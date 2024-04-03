@@ -4,24 +4,20 @@
 - Rojo, Kate Lynn
 - Romblon, Kathleen Mae
 
-# Comparative Execution Time
-
-## 1. 2<sup>20</sup>
+## I. Comparative Execution Time
 
 ### Debug Mode
 
 ### Release Mode
 
-## 2. 2<sup>24</sup>
+## II. Screenshot of the Program Output with the Correctness Check (C)
 
-### Debug Mode
+### 1. 2<sup>20</sup>
+### 2. 2<sup>24</sup>
+### 3. 2<sup>29</sup>
 
-### Release Mode
+## III. Screenshot of the Program Output with the Correctness Check (x86-64)
 
-## 3. 2<sup>29</sup>
-
-### Debug Mode
-
-### Release Mode
-
-
+### 1. 2<sup>20</sup>
+### 2. 2<sup>24</sup>
+### 3. 2<sup>29</sup>
